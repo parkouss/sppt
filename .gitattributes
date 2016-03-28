@@ -1,0 +1,64 @@
+# Auto detect text files and perform LF normalization
+*         	text=auto
+
+*.cpp	  	text
+*.h		  	text
+*.hpp	  	text
+*.msbuild 	text
+*.md      	text
+*.java    	text
+*.html    	text
+*.htm    	text
+*.css     	text
+*.js      	text
+*.sql     	text
+*.gradle	text
+*.groovy   	text
+*.cfg		text
+*.conf		text
+*.dic		text
+*.ini		text
+*.json		text
+*.mako		text
+*.scss		text
+*.py		text
+*.ocw		text
+*.rdf		text
+*.svg		text
+*.xjb		text
+*.xul		text
+*.qrc	  	text
+
+*.lcs		text eol=lf
+*.sh	  	text eol=lf
+*.env	  	text eol=lf
+*.cmake   	text eol=lf
+*.j2		text eol=lf
+*.map	  	text eol=lf
+*.Parser	text eol=lf
+*.Plugin	text eol=lf
+*.po		text eol=lf
+*.repo		text eol=lf
+
+*.vcproj  	text merge=union
+*.sln     	text merge=union eol=crlf
+*.bat	  	text eol=crlf
+*.ps1		text eol=crlf
+
+*.docx    	diff=astextplain
+*.DOCX    	diff=astextplain
+
+*.png	  	binary
+*.jpg 	  	binary
+*.exe	  	binary
+*.gif	  	binary
+*.ico	  	binary
+
+*.eot		binary
+*.ttf		binary
+*.woff		binary
+
+
+
+
+
