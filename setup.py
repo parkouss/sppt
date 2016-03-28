@@ -24,7 +24,7 @@ setup(
     author="Julien Pagès",
     author_email="j.parkouss@gmail.com",
     license="GPL",
-    install_requires=["jinja2", "colorama", "configobj"],
+    install_requires=["jinja2", "colorama", "configobj", "future"],
     tests_require=[],
     entry_points="""
       [console_scripts]

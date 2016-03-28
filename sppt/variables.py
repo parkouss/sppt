@@ -1,3 +1,5 @@
+from builtins import input
+
 class Var:
     def __init__(self, name, default=None, should_input=True, prompt=None,
                  validator=str):
